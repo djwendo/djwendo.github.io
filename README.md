@@ -1,6 +1,6 @@
 # Wendy Braun
 
-### Marketing Director turned Full-Stack Web Developer
+### Digital Marketer turned Full-Stack Web Developer
 
 #### Contact Me:
 
