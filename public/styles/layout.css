@@ -1,14 +1,29 @@
 nav {
-  height: 80px;
+  height: 50px;
   width: 100%;
-  background-color: #00a087;
+  background-color: #03a596;
   padding: 0px 2em;
   align-content: center;
   position: fixed;
   top: 0;
   z-index: 1;
+  color: #ffffff;
+}
+
+a {
+  color: #03a596;
+}
+
+#name {
+  margin-top: 75px;
 }
 
 h1 {
-    font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
 }
