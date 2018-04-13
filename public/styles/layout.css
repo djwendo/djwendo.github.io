@@ -11,7 +11,7 @@ nav {
 }
 
 a {
-  color: #03a596;
+  color: #22252a;
 }
 
 #name {
@@ -25,5 +25,15 @@ h1 {
 }
 
 #contact {
+  text-align: center;
+}
+
+hr {
+  width:  60%;
+}
+
+#about {
+  width: 60%;
+  margin: auto;
   text-align: center;
 }
