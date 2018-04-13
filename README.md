@@ -1,6 +1,10 @@
 # Wendy Braun
 
-## Marketing Director turned Full-Stack Web Developer
+### Marketing Director turned Full-Stack Web Developer
 
-wendyjbraun@gmail.com | 778.839.7910
-[LinkedIn] (https://www.linkedin.com/in/wendy-braun) | [GitHub] (https://github.com/djwendo)
+#### Contact Me:
+
+* __Phone:__ 778.839.7910
+* __Email:__ wendyjbraun@gmail.com
+* __LinkedIn:__ https://www.linkedin.com/in/wendy-braun
+* __GitHub:__ https://github.com/djwendo
