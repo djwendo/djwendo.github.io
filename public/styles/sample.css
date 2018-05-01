@@ -1,16 +1,13 @@
-@import 'variables';
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700");
-
 nav {
   height: 50px;
   width: 100%;
-  background-color: $teal;
+  background-color: #03a596;
   padding: 0px 2em;
   align-content: center;
   position: fixed;
   top: 0;
   z-index: 1;
-  color: $white;
+  color: #ffffff;
 }
 
 .row {
@@ -26,7 +23,7 @@ nav {
   max-width: 20%;
   margin-left: 8rem;
   padding: 1em 0em 1em 2em;
-  background-color: $white;
+  background-color: #f3f4f5;
 }
 
 a {

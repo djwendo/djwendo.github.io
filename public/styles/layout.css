@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700");
 nav {
   height: 50px;
   width: 100%;
@@ -7,63 +8,50 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  color: #ffffff;
-}
+  color: #FFFFFF; }
 
 .row {
-  padding-top: 1em;
-}
+  padding-top: 1em; }
 
 .col-8 {
   max-width: 50%;
-  margin-left: 10rem;
-}
+  margin-left: 10rem; }
 
 .col-4 {
   max-width: 20%;
   margin-left: 8rem;
   padding: 1em 0em 1em 2em;
-  background-color: #f3f4f5;
-}
+  background-color: #FFFFFF; }
 
 a {
-  color: #22252a;
-}
+  color: #22252a; }
 
 a:hover {
   color: #03a596;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 #name {
-  margin-top: 75px;
-}
+  margin-top: 75px; }
 
 h1 {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 5em;
-  text-align: center;
-}
+  text-align: center; }
 
 h4 {
   color: #03a596;
-  font-weight: 800;
-}
+  font-weight: 800; }
 
 #contact {
-  text-align: center;
-}
+  text-align: center; }
 
 .topHR {
-  width: 60%;
-}
+  width: 60%; }
 
 hr {
-  width:  100%;
-}
+  width: 100%; }
 
 #about {
   width: 60%;
   margin: auto;
-  text-align: center;
-}
+  text-align: center; }
