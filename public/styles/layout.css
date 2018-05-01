@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700");
 nav {
   height: 50px;
   width: 100%;
@@ -18,10 +17,10 @@ nav {
   margin-left: 10rem; }
 
 .col-4 {
-  max-width: 20%;
+  max-width: 21%;
   margin-left: 8rem;
   padding: 1em 0em 1em 2em;
-  background-color: #FFFFFF; }
+  background-color: #ebecec; }
 
 a {
   color: #22252a; }
@@ -55,3 +54,23 @@ hr {
   width: 60%;
   margin: auto;
   text-align: center; }
+
+#about-mobile {
+  width: 90%; }
+
+@media (min-width: 401px) and (max-width: 1000px) {
+  p {
+    font-size: .9em; }
+  .col-8 {
+    min-width: 90%;
+    margin-left: 1em 2em 0em 2em; }
+  .col-4 {
+    min-width: 100%;
+    text-align: center;
+    background-color: #ebecec; } }
+
+@media (max-width: 400px) {
+  p {
+    font-size: .8em; }
+  h1 {
+    font-size: 3em; } }

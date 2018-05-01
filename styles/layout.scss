@@ -22,10 +22,10 @@ nav {
 }
 
 .col-4 {
-  max-width: 20%;
+  max-width: 21%;
   margin-left: 8rem;
   padding: 1em 0em 1em 2em;
-  background-color: $white;
+  background-color: $grey;
 }
 
 a {
@@ -68,4 +68,36 @@ hr {
   width: 60%;
   margin: auto;
   text-align: center;
+}
+
+#about-mobile {
+  width: 90%
+}
+
+@media (min-width: 401px) and (max-width: $breakpoint) {
+
+  p {
+    font-size: .9em;
+  }
+
+  .col-8 {
+    min-width: 90%;
+    margin-left: 1em 2em 0em 2em;
+  }
+
+  .col-4 {
+    min-width: 100%;
+    text-align: center;
+    background-color: $grey;
+  }
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: .8em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
 }
