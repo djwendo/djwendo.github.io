@@ -74,21 +74,30 @@ hr {
   width: 90%
 }
 
-@media (min-width: 401px) and (max-width: $breakpoint) {
+@media (max-width: $breakpoint) {
 
   p {
     font-size: .9em;
   }
 
+  h1 {
+    font-size: 3em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
   .col-8 {
     min-width: 90%;
-    margin-left: 1em 2em 0em 2em;
+    margin: 1em 2em 0em 2em;
   }
 
   .col-4 {
     min-width: 100%;
     text-align: center;
     background-color: $grey;
+    margin: 0em;
   }
 }
 
@@ -99,5 +108,9 @@ hr {
 
   h1 {
     font-size: 3em;
+  }
+
+  h4 {
+    font-size: 1em;
   }
 }
