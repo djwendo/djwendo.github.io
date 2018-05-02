@@ -82,6 +82,11 @@ hr {
   visibility: hidden;
 }
 
+#dropdownbutton {
+  background-color: $teal;
+  color: $white;
+}
+
 @media (max-width: $breakpoint) {
 
   p {
@@ -117,6 +122,12 @@ hr {
   #about {
     width: 90%
   }
+
+  #dropdown {
+    visibility: visible;
+    float: right;
+    padding-top: .25em;
+  }
 }
 
 @media (max-width: 400px) {
@@ -140,16 +151,5 @@ hr {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
     padding: 0em 1em 0em 0em;;
-  }
-
-  #dropdown {
-    visibility: visible;
-    float: right;
-    padding-top: .25em;
-  }
-
-  #dropdownbutton {
-    background-color: $teal;
-    color: $white;
   }
 }

@@ -63,6 +63,10 @@ hr {
 #dropdown {
   visibility: hidden; }
 
+#dropdownbutton {
+  background-color: #03a596;
+  color: #FFFFFF; }
+
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
@@ -83,7 +87,11 @@ hr {
     padding: 1em 0em 0em 0em;
     margin: 0em; }
   #about {
-    width: 90%; } }
+    width: 90%; }
+  #dropdown {
+    visibility: visible;
+    float: right;
+    padding-top: .25em; } }
 
 @media (max-width: 400px) {
   p {
@@ -97,11 +105,4 @@ hr {
   .col-8 {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
-    padding: 0em 1em 0em 0em; }
-  #dropdown {
-    visibility: visible;
-    float: right;
-    padding-top: .25em; }
-  #dropdownbutton {
-    background-color: #03a596;
-    color: #FFFFFF; } }
+    padding: 0em 1em 0em 0em; } }
