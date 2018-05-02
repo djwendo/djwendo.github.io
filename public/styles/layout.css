@@ -55,6 +55,9 @@ hr {
   margin: auto;
   text-align: center; }
 
+.dropdown {
+  display: none; }
+
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
@@ -89,4 +92,7 @@ hr {
   .col-8 {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
-    padding: 0em 1em 0em 0em; } }
+    padding: 0em 1em 0em 0em; }
+  .dropdown {
+    float: right;
+    padding-top: .25em; } }

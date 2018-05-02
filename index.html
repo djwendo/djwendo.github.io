@@ -26,7 +26,22 @@
 
   </head>
     <body>
-      <nav >
+      <nav>
+          <i class="fas fa-code"></i>
+          <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Jump to Sections
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Experience">Experience/a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Volunteer">Volunteer</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#TechnicalSkills">Technical Skills</a></li>
+          </ul>
+        </div>
       </nav>
       <header>
       </header>
@@ -46,7 +61,7 @@
       <hr class="topHR">
 
       <div class="row">
-        <div class="col-8"><h4>PROJECTS</h4>
+        <div class="col-8"><h4 id="Projects">PROJECTS</h4>
           <p><b><a href="https://github.com/djwendo/jungle-rails" target="_blank">Jungle</a></b><br/>
             Welcome to the Jungle! <em>Jungle</em> is a mini e-commerce application allowing users to add items to 
             their cart and checkout using Stripe. Guests are able to see Average Ratings and read Reviews from Users. 
@@ -67,7 +82,7 @@
           A simple, single-page Twitter clone that allows users to add new tweets and view existing.<br/>
           <em>Built using JavaScript, Express, MongoDB, jQuery, AJAX, NodeJS, and HTML/CSS/SCSS.</em></p>
           <hr>
-          <h4>EXPERIENCE</h4>
+          <h4 id="Experience">EXPERIENCE</h4>
           <p><b>Web Development Bootcamp Student</b><br/>
             <em><a href="http://www.lighthouselabs.ca" target="_blank">Lighthouse Labs</a></em> | Mar 2018-May 2018 | Vancouver, BC<br/>
             <ul>
@@ -119,18 +134,18 @@
             </ul>
           </p>
           <hr>
-          <h4>EDUCATION</h4>
+          <h4 id="Education">EDUCATION</h4>
           <p><b>Web Development Diploma</b>, <a href="http://www.lighthouselabs.ca" target="_blank">Lighthouse Labs</a><br/>
             <b>Management Certificate: Marketing Communications</b>, <a href="https://www.bcit.ca" target="_blank">BCIT</a><br/>
             <b>BA: English Literature &amp; Commerce</b>, <a href="https://www.ubc.ca/" target="_blank">University of British Columbia</a></p>
             <hr>
-          <h4>VOLUNTEER</h4>
+          <h4 id="Volunteer">VOLUNTEER</h4>
           <p><b>Past-Chair</b>, <a href="https://www.wct-fct.com/en" target="_blank">Women in Communications &amp; Technology</a> (WCT BC) | Oct 2016-Present<br/>
             <b>Chair</b>, <a href="https://www.wct-fct.com/en" target="_blank">Women in Communications &amp; Technology</a> (WCT BC) | Aug 2014-Sept 2016<br/>
             <b>Vice President &amp; Events Director</b>, <a href="http://vancouversouthsiders.ca/" target="_blank">Vancouver Southsiders</a> | Dec 2013-Dec 2014<br/>
             <b>Vice Chair &amp; Communications Director</b>, <a href="https://www.wct-fct.com/en" target="_blank">WCT BC</a> | Sept 2013-Aug 2014
         </div>
-        <div class="col-4"><h4>TECHNICAL SKILLS</h4>
+        <div class="col-4"><h4 id="TechnicalSkills">TECHNICAL SKILLS</h4>
           <p><b>Languages</b><br/>
             JavaScript<br/>
             Ruby<br/>

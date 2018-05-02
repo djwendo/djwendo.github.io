@@ -70,6 +70,10 @@ hr {
   text-align: center;
 }
 
+.dropdown {
+  display: none;
+}
+
 @media (max-width: $breakpoint) {
 
   p {
@@ -128,5 +132,10 @@ hr {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
     padding: 0em 1em 0em 0em;;
+  }
+
+  .dropdown {
+    float: right;
+    padding-top: .25em;
   }
 }
