@@ -89,7 +89,7 @@ hr {
   #about {
     width: 90%; }
   #dropdown {
-    visibility: visible;
+    visibility: hidden;
     float: right;
     padding-top: .25em; } }
 
