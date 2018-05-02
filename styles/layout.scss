@@ -70,10 +70,6 @@ hr {
   text-align: center;
 }
 
-.dropdown {
-  display: none;
-}
-
 @media (max-width: $breakpoint) {
 
   p {
@@ -137,5 +133,9 @@ hr {
   .dropdown {
     float: right;
     padding-top: .25em;
+  }
+
+  #dropdownMenu1 {
+    color: $teal
   }
 }
