@@ -55,9 +55,6 @@ hr {
   margin: auto;
   text-align: center; }
 
-#about-mobile {
-  width: 90%; }
-
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
@@ -65,14 +62,20 @@ hr {
     font-size: 3em; }
   h4 {
     font-size: 1.25em; }
+  ul {
+    font-size: .9em; }
   .col-8 {
     min-width: 90%;
-    margin: 1em 2em 0em 2em; }
+    margin: 0em 1em 0em 2em;
+    padding: 0em; }
   .col-4 {
     min-width: 100%;
     text-align: center;
     background-color: #ebecec;
-    margin: 0em; } }
+    padding: 1em 0em 0em 0em;
+    margin: 0em; }
+  #about {
+    width: 90%; } }
 
 @media (max-width: 400px) {
   p {
@@ -80,4 +83,10 @@ hr {
   h1 {
     font-size: 3em; }
   h4 {
-    font-size: 1em; } }
+    font-size: 1em; }
+  ul {
+    font-size: .8em; }
+  .col-8 {
+    min-width: 90%;
+    margin: 0em 1em 0em 2em;
+    padding: 0em 1em 0em 0em; } }

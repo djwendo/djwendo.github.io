@@ -70,10 +70,6 @@ hr {
   text-align: center;
 }
 
-#about-mobile {
-  width: 90%
-}
-
 @media (max-width: $breakpoint) {
 
   p {
@@ -88,16 +84,26 @@ hr {
     font-size: 1.25em;
   }
 
+  ul {
+    font-size: .9em;
+  }
+
   .col-8 {
     min-width: 90%;
-    margin: 1em 2em 0em 2em;
+    margin: 0em 1em 0em 2em;
+    padding: 0em;
   }
 
   .col-4 {
     min-width: 100%;
     text-align: center;
     background-color: $grey;
+    padding: 1em 0em 0em 0em;
     margin: 0em;
+  }
+
+  #about {
+    width: 90%
   }
 }
 
@@ -112,5 +118,15 @@ hr {
 
   h4 {
     font-size: 1em;
+  }
+
+  ul {
+    font-size: .8em;
+  }
+
+  .col-8 {
+    min-width: 90%;
+    margin: 0em 1em 0em 2em;
+    padding: 0em 1em 0em 0em;;
   }
 }
