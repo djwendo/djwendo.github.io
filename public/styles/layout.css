@@ -8,6 +8,8 @@ nav {
   top: 0;
   z-index: 1;
   color: #FFFFFF; }
+  nav #icon {
+    padding-top: 1em; }
 
 .row {
   padding-top: 1em; }
@@ -55,6 +57,9 @@ hr {
   margin: auto;
   text-align: center; }
 
+#dropdown {
+  visibility: hidden; }
+
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
@@ -90,8 +95,6 @@ hr {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
     padding: 0em 1em 0em 0em; }
-  .dropdown {
+  #dropdown {
     float: right;
-    padding-top: .25em; }
-  #dropdownMenu1 {
-    color: #03a596; } }
+    padding-top: .25em; } }

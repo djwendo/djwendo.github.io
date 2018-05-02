@@ -29,13 +29,12 @@
   </head>
     <body>
       <nav>
-          <i class="fas fa-code"></i>
-          <div class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Jump to Sections
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <i id="icon" class="fas fa-code"></i>
+          <div class="btn-group" id="dropdown">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Jump to Section <span class="caret"></span>
+              </button>
+          <ul class="dropdown-menu">
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Experience">Experience/a></li>
             <li><a href="#Education">Education</a></li>

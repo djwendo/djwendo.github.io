@@ -10,6 +10,10 @@ nav {
   top: 0;
   z-index: 1;
   color: $white;
+
+  #icon {
+    padding-top: 1em;
+  }
 }
 
 .row {
@@ -68,6 +72,10 @@ hr {
   width: 60%;
   margin: auto;
   text-align: center;
+}
+
+#dropdown {
+  visibility: hidden;
 }
 
 @media (max-width: $breakpoint) {
@@ -130,12 +138,8 @@ hr {
     padding: 0em 1em 0em 0em;;
   }
 
-  .dropdown {
+  #dropdown {
     float: right;
     padding-top: .25em;
-  }
-
-  #dropdownMenu1 {
-    color: $teal
   }
 }
