@@ -11,7 +11,7 @@ nav {
   z-index: 1;
   color: $white;
 
-  #icon {
+  #codeicon {
     padding-top: 1em;
   }
 }
@@ -33,11 +33,11 @@ nav {
 }
 
 a {
-  color: #22252a;
+  color: $black;
 }
 
 a:hover {
-  color: #03a596;
+  color: $teal;
   text-decoration: none;
 }
 
@@ -52,12 +52,16 @@ h1 {
 }
 
 h4 {
-  color: #03a596;
+  color: $teal;
   font-weight: 800;
 }
 
 #contact {
   text-align: center;
+}
+
+.contact-icon {
+  color: $black;
 }
 
 .topHR {
@@ -139,7 +143,13 @@ hr {
   }
 
   #dropdown {
+    visibility: visible;
     float: right;
     padding-top: .25em;
+  }
+
+  #dropdownbutton {
+    background-color: $teal;
+    color: $white;
   }
 }

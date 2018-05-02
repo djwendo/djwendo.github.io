@@ -8,7 +8,7 @@ nav {
   top: 0;
   z-index: 1;
   color: #FFFFFF; }
-  nav #icon {
+  nav #codeicon {
     padding-top: 1em; }
 
 .row {
@@ -45,6 +45,9 @@ h4 {
 
 #contact {
   text-align: center; }
+
+.contact-icon {
+  color: #22252a; }
 
 .topHR {
   width: 60%; }
@@ -96,5 +99,9 @@ hr {
     margin: 0em 1em 0em 2em;
     padding: 0em 1em 0em 0em; }
   #dropdown {
+    visibility: visible;
     float: right;
-    padding-top: .25em; } }
+    padding-top: .25em; }
+  #dropdownbutton {
+    background-color: #03a596;
+    color: #FFFFFF; } }
