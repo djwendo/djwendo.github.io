@@ -79,6 +79,12 @@ hr {
   text-align: center;
 }
 
+#dropdown {
+  visibility: hidden;
+  float: right;
+  padding-top: .25em;
+}
+
 @media (max-width: $breakpoint) {
 
   p {
