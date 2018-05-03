@@ -79,15 +79,6 @@ hr {
   text-align: center;
 }
 
-#dropdown {
-  visibility: hidden;
-}
-
-#dropdownbutton {
-  background-color: $teal;
-  color: $white;
-}
-
 @media (max-width: $breakpoint) {
 
   p {
@@ -125,9 +116,14 @@ hr {
   }
 
   #dropdown {
-    visibility: hidden;
+    visibility: visible;
     float: right;
     padding-top: .25em;
+  }
+  
+  #dropdownbutton {
+    background-color: $teal;
+    color: $white;
   }
 }
 

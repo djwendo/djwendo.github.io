@@ -61,13 +61,6 @@ hr {
   margin: auto;
   text-align: center; }
 
-#dropdown {
-  visibility: hidden; }
-
-#dropdownbutton {
-  background-color: #03a596;
-  color: #FFFFFF; }
-
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
@@ -90,9 +83,12 @@ hr {
   #about {
     width: 90%; }
   #dropdown {
-    visibility: hidden;
+    visibility: visible;
     float: right;
-    padding-top: .25em; } }
+    padding-top: .25em; }
+  #dropdownbutton {
+    background-color: #03a596;
+    color: #FFFFFF; } }
 
 @media (max-width: 400px) {
   p {
