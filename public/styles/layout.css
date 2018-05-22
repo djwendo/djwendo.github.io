@@ -47,6 +47,8 @@ h4 {
 
 #contact {
   text-align: center; }
+  #contact a {
+    color: black; }
 
 .contact-icon {
   color: #22252a; }
