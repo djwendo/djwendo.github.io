@@ -33,12 +33,13 @@ nav {
 }
 
 a {
-  color: $black;
+  color: $teal;
+  text-decoration: none;
 }
 
 a:hover {
-  color: $teal;
-  text-decoration: none;
+  color: $black;
+  text-decoration: underline;
 }
 
 #name {

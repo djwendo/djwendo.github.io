@@ -25,11 +25,12 @@ nav {
   background-color: #ebecec; }
 
 a {
-  color: #22252a; }
-
-a:hover {
   color: #03a596;
   text-decoration: none; }
+
+a:hover {
+  color: #22252a;
+  text-decoration: underline; }
 
 #name {
   margin-top: 75px; }
