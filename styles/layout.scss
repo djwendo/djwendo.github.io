@@ -88,6 +88,10 @@ hr {
   visibility: hidden;
 }
 
+.anchor {
+  position: relative;
+}
+
 @media (max-width: $breakpoint) {
 
   p {

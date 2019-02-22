@@ -67,6 +67,9 @@ hr {
 #dropdown {
   visibility: hidden; }
 
+.anchor {
+  position: relative; }
+
 @media (max-width: 1000px) {
   p {
     font-size: .9em; }
