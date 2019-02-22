@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/djwendo/djwendo.github.io#readme",
   "dependencies": {
+    "extend": "^3.0.2",
+    "lodash": "^4.17.11",
     "node-sass": "^4.9.0",
     "normalize.css": "^8.0.0",
     "sass": "^1.3.0"
