@@ -61,7 +61,7 @@ h4 {
 #contact {
   text-align: center;
 
-  a {
+a {
     color: black;
   }
 }
@@ -157,6 +157,10 @@ hr {
     font-size: .8em;
   }
 
+  .projects {
+    margin-left: 7em;
+    margin-right: 7em;
+  }
   .col-8 {
     min-width: 90%;
     margin: 0em 1em 0em 2em;
