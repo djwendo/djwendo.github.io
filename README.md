@@ -1,9 +1,10 @@
 # Wendy Braun
 
-### Digital Marketer turned Full-Stack Web Developer
+## Digital Marketer turned Full-Stack Web Developer
 
-#### Contact Me:
+### Contact Me:
 
-* __Email:__ wendyjbraun@gmail.com
-* __LinkedIn:__ https://www.linkedin.com/in/wendy-braun
-* __GitHub:__ https://github.com/djwendo
+* **Email:** wendyjbraun \*at\* gmail \*dot\* com
+* **LinkedIn:** [https://www.linkedin.com/in/wendy-braun](https://www.linkedin.com/in/wendy-braun)
+* **GitHub:** [https://github.com/djwendo](https://github.com/djwendo)
+
