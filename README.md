@@ -1,6 +1,6 @@
 # Wendy Braun
 
-## Digital Marketer turned Full-Stack Web Developer
+## Passionate About Martech and Developer Enablement
 
 ### Contact Me:
 
